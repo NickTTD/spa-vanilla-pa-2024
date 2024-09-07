@@ -32,7 +32,7 @@ module.exports = {
     ),
     new CopyWebpackPluguin({
         patterns: [{ from: './src/styles/styles.css', // archivo css de entrada
-        to: '' }],
+        to: 'styles.css' }],
       })
   ]
 }
